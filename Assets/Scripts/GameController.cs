@@ -26,6 +26,7 @@ namespace Simulator
         public List<NoteInfo> remainingNotes = new List<NoteInfo>();
         public List<Note>[] displayingNotes = new List<Note>[4];
         public int halfScreenHeight = 1080;
+        public int halfScreenWidth = 720;
         public GameState State { get; private set; } = GameState.WaitingStart;
 
         public AudioClip clip;
@@ -45,8 +46,8 @@ namespace Simulator
             displayingNotes[1] = new List<Note>();
             displayingNotes[2] = new List<Note>();
             displayingNotes[3] = new List<Note>();
-            halfScreenHeight = Screen.height / 2;
-            judgementLineY = judgementLineY - halfScreenHeight;
+            //halfScreenHeight = Screen.height / 2;
+            //judgementLineY = judgementLineY - halfScreenHeight;
         }
         // Start is called before the first frame update
         void Start()
@@ -77,6 +78,7 @@ namespace Simulator
                     }
                     display.Insert(++i, note);
                 }
+                remainingNotes.RemoveAt(0);
             }
             //Update and Judge Notes
             foreach (var trackNotes in displayingNotes)

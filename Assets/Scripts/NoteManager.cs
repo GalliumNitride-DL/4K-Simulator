@@ -9,6 +9,7 @@ namespace Simulator
     {
         public static NoteManager Instance;
         public GameObject[] prefabs;
+        public GameObject[] FXs;
         public Transform parent;
         public Stack<TapNote> taps;
         public Stack<HoldNote> holds;
@@ -25,12 +26,12 @@ namespace Simulator
         {
             Instance = this;
             taps = new Stack<TapNote>(); holds = new Stack<HoldNote>(); drags = new Stack<DragNote>();
-            for (int i = 0; i < poolCapacity; i++ )
-            {
-                taps.Push(Instantiate(prefabs[0], parent).GetComponent<TapNote>());
-                holds.Push(Instantiate(prefabs[1], parent).GetComponent<HoldNote>());
-                drags.Push(Instantiate(prefabs[2], parent).GetComponent<DragNote>());
-            }
+            // for (int i = 0; i < poolCapacity; i++ )
+            // {
+            //     taps.Push(Instantiate(prefabs[0], parent).GetComponent<TapNote>());
+            //     holds.Push(Instantiate(prefabs[1], parent).GetComponent<HoldNote>());
+            //     drags.Push(Instantiate(prefabs[2], parent).GetComponent<DragNote>());
+            // }
         }
 
         public Note RegisterNote(NoteInfo info)
@@ -59,7 +60,7 @@ namespace Simulator
 
         public void RecycleNote(Note note)
         {
-            note.ReInitialize(nullNote);
+            note.ReInitialize(nullNote); note.renderer.enabled = false;
             if (note is TapNote) taps.Push(note as TapNote);
             if (note is HoldNote) holds.Push(note as HoldNote);
             if (note is DragNote) drags.Push(note as DragNote);
