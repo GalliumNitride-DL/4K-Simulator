@@ -72,4 +72,71 @@ namespace Simulator.Editor
             }
         }
     }
+
+    public class Malody4KReader : EditorWindow
+    {
+        private TextAsset mcChart;
+        private GameController controller;
+        private float bpm;
+        private float offset;
+
+        [MenuItem("Simulator/Malody4KToChart")]
+        private static void Init()
+        {
+            var window = GetWindow<Malody4KReader>();
+            window.Show();
+        }
+
+        private void OnGUI()
+        {
+            mcChart = EditorGUILayout.ObjectField("Chart", mcChart, typeof(TextAsset), false) as TextAsset;
+            controller = EditorGUILayout.ObjectField("Controller", controller, typeof(GameController), true) as GameController;
+            bpm = EditorGUILayout.FloatField("BPM", bpm);
+            offset = EditorGUILayout.FloatField("Offset", offset);
+
+            if (GUILayout.Button("Read"))
+            {
+                ReadChart();
+            }
+        }
+
+        private void ReadChart()
+        {
+            var text = mcChart.text.Replace("\n", string.Empty);
+            text = text.Substring(text.IndexOf("note") + 8);
+            var notesData = text.Split("},{");
+            var bps = (double)bpm / 60d;
+            foreach (var data in notesData)
+            {
+                if (data.Contains("sound")) continue;
+                if (data.Contains("endbeat"))
+                {
+                    var rd = data.Replace("\"beat\":[", string.Empty).Replace("],\"endbeat\":[", ",").Replace("],\"column\":", ",");
+                    var nums = rd.Split(",");
+                    var startBeat = int.Parse(nums[0]) + (float)int.Parse(nums[1]) / (float)int.Parse(nums[2]);
+                    var endBeat = int.Parse(nums[3]) + (float)int.Parse(nums[4]) / (float)int.Parse(nums[5]);
+                    var track = int.Parse(nums[6]);
+                    var duration = (float)((endBeat - startBeat) / bps);
+                    var startTime = (float)(startBeat / bps) + offset;
+                    controller.remainingNotes.Add(new NoteInfo
+                    {
+                        time = startTime, track = track, type = 1, localSpeed = 1, duration = duration
+                    });
+                }
+                else
+                {
+                    var rd = data.Replace("\"beat\":[", string.Empty).Replace("],\"column\":", ",");
+                    var nums = rd.Split(",");
+                    var startBeat = int.Parse(nums[0]) + (float)int.Parse(nums[1]) / (float)int.Parse(nums[2]);
+                    var track = int.Parse(nums[3]);
+                    var startTime = (float)(startBeat / bps) + offset;
+                    controller.remainingNotes.Add(new NoteInfo
+                    {
+                        time = startTime, track = track, type = 0, localSpeed = 1, duration = 0
+                    });
+                }
+            }
+
+        }
+    }
 }

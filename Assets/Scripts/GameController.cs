@@ -28,7 +28,7 @@ namespace Simulator
         public float LevelTime { get; private set; }
         public List<NoteInfo> remainingNotes = new List<NoteInfo>();
         public List<Note>[] displayingNotes = new List<Note>[4];
-        public int halfScreenHeight = 1080;
+        public int halfScreenHeight = 3000;
         public int halfScreenWidth = 720;
         public GameState State { get; private set; } = GameState.WaitingStart;
 
@@ -36,12 +36,13 @@ namespace Simulator
         public float speedMultiplier = 5f;
         public int[] coords = new int[4];
         public KeyCode[] keys = new KeyCode[4];
-        public int judgementLineY;
+        public float judgementLineY;
         public Transform judgementLine;
         public Text comboText;
 
         public int comboCount;
         private float time;
+        private int index = 0;
         
 
         private void Awake()
@@ -51,8 +52,8 @@ namespace Simulator
             displayingNotes[1] = new List<Note>();
             displayingNotes[2] = new List<Note>();
             displayingNotes[3] = new List<Note>();
-            //halfScreenHeight = Screen.height / 2;
-            //judgementLineY = judgementLineY - halfScreenHeight;
+            //halfScreenHeight = Screen.resolutions[Screen.resolutions.Length - 1].height / 2;
+            //judgementLineY = judgementLine.transform.localPosition.y;
         }
         // Start is called before the first frame update
         void Start()
@@ -85,11 +86,11 @@ namespace Simulator
             LevelTime = Time.time - time;
 
             //Show Notes
-            while (remainingNotes.Count > 0 && IsPendingJudge(remainingNotes[0]))
+            while (remainingNotes.Count > index && IsPendingJudge(remainingNotes[index]))
             {
-                var note = NoteManager.Instance.RegisterNote(remainingNotes[0]);
+                var note = NoteManager.Instance.RegisterNote(remainingNotes[index]);
                 int i; 
-                var display = displayingNotes[remainingNotes[0].track];
+                var display = displayingNotes[remainingNotes[index].track];
                 if (display.Count == 0) display.Add(note);
                 else
                 {
@@ -99,7 +100,7 @@ namespace Simulator
                     }
                     display.Insert(++i, note);
                 }
-                remainingNotes.RemoveAt(0);
+                index++;
             }
             //Update and Judge Notes
             foreach (var trackNotes in displayingNotes)

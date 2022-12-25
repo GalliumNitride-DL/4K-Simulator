@@ -47,6 +47,7 @@ namespace Simulator
             //Bad
             if (dt > NoteManager.Instance.goodRange) //bad
             {
+                GameController.Instance.Miss(this);
                 PlayEffect(2);
                 return;
             }

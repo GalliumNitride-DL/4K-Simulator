@@ -48,7 +48,7 @@ namespace Simulator
                 isMissed = true; isJudged = true;
                 //PlayEffect(3);
                 //Destroy(Instantiate(NoteManager.Instance.FXs[3], FXPos, Quaternion.identity), 0.5f);
-                renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 0.6f);
+                renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 0.4f);
                 GameController.Instance.Miss(this);
                 return;
             }
