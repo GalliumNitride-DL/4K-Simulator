@@ -16,7 +16,7 @@ namespace Simulator
             if (y < 0)
             {
                 var a = 1f + y / (float)(GameController.Instance.halfScreenHeight + GameController.Instance.judgementLineY);
-                if (a <= 0f) destroyAfterCall = true;
+                //if (a <= 0f) destroyAfterCall = true;
                 renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, a);
             }
             else renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 1f);
@@ -27,12 +27,14 @@ namespace Simulator
             makeNoLongerJudgeable = false;
             destroyAfterCall = false;
             var dt = (judgeTime - time) * 1000;
+            //Debug.Log(dt);
             
             //Miss or beyond judge range
             if (dt > NoteManager.Instance.badRange) { return; }
             if (dt < -NoteManager.Instance.badRange) //Miss
             {
-                PlayEffect(3);
+                //PlayEffect(3);
+                //Debug.Log("miss");
                 GameController.Instance.Miss(this); destroyAfterCall = true; return; 
             }
 

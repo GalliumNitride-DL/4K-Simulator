@@ -2,14 +2,17 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using Simulator.Event;
+using Cysharp.Threading.Tasks;
 
 namespace Simulator
 {
     [Serializable]
     public class NoteInfo
     {
-        public float time; public int track; public int type; public float localSpeed;
+        public float time; public int track; public int type; public float localSpeed; public float duration;
     }
     public enum GameState
     {
@@ -34,6 +37,8 @@ namespace Simulator
         public int[] coords = new int[4];
         public KeyCode[] keys = new KeyCode[4];
         public int judgementLineY;
+        public Transform judgementLine;
+        public Text comboText;
 
         public int comboCount;
         private float time;
@@ -52,7 +57,16 @@ namespace Simulator
         // Start is called before the first frame update
         void Start()
         {
-            //AudioManager.Instance.SetClip(clip);
+            AudioManager.Instance.SetClip(clip);
+            time = Time.time;
+        }
+
+        private async void StartGame()
+        {
+            AudioManager.Instance.SetTime(0f);
+            AudioManager.Instance.PlayAfter(0.2);
+            await UniTask.WaitUntil(() => AudioManager.Instance.State == BGMState.Playing);
+            State = GameState.Playing;
             time = Time.time;
         }
 
@@ -60,6 +74,13 @@ namespace Simulator
         void Update()
         {
             if (State == GameState.Completed || State == GameState.WaitingAudio) return;
+
+            if (State == GameState.WaitingStart)
+            {
+                if (Input.anyKeyDown)
+                    StartGame();
+                else return;
+            }
             //Update LevelTime
             LevelTime = Time.time - time;
 
@@ -103,6 +124,14 @@ namespace Simulator
                         }
                     }
                 }
+            }
+            //Update Conbo
+            comboText.text = comboCount.ToString();
+
+            //Check for restart
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
 

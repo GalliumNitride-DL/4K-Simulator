@@ -45,7 +45,7 @@ namespace Simulator
             if (dt > NoteManager.Instance.goodRange) { return; }
             if (dt < -NoteManager.Instance.goodRange) //Miss
             {
-                PlayEffect(3);
+                //PlayEffect(3);
                 GameController.Instance.Miss(this); destroyAfterCall = true; return; 
             }
 

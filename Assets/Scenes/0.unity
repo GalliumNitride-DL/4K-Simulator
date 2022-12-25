@@ -155,11 +155,11 @@ RectTransform:
   m_Children:
   - {fileID: 448436939}
   m_Father: {fileID: 1830336942}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -656}
+  m_AnchoredPosition: {x: 0, y: -842.9999}
   m_SizeDelta: {x: 5000, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &87377116
@@ -432,160 +432,2691 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   remainingNotes:
-  - time: 2
-    track: 0
-    type: 0
-    localSpeed: 1
-  - time: 3
-    track: 1
-    type: 0
-    localSpeed: 1
-  - time: 4
-    track: 2
-    type: 0
-    localSpeed: 1
-  - time: 5
+  - time: 10.014
     track: 3
     type: 0
     localSpeed: 1
-  - time: 6
+    duration: 0
+  - time: 10.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 10.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 10.514
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 10.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 10.847
     track: 0
     type: 0
     localSpeed: 1
-  - time: 7
-    track: 2
-    type: 2
+    duration: 0
+  - time: 11.014
+    track: 3
+    type: 0
     localSpeed: 1
+    duration: 0
+  - time: 11.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 11.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 11.514
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 11.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 11.847
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 12.014
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 12.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 12.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 12.846
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 13.013
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 13.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 13.346
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 13.513
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 13.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 13.846
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 14.013
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 14.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 14.346
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 14.513
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 14.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 14.846
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 15.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 15.513
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 15.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 15.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 16.013
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 16.18
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 16.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 16.513
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 16.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 16.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 17.013
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 17.18
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 17.347
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 17.513
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 18.013
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 18.179
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 18.346
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 18.513
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 18.679
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 18.846
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 19.013
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 19.179
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 19.346
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 19.513
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 19.679
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 19.846
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 20.013
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 20.179
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 20.43
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 20.514
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 20.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 21.014
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 21.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 21.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 21.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 22.014
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 22.18
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 22.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 22.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 22.847
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 23.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 23.097
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 23.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 23.514
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 23.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 23.847
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 24.014
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 24.347
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 24.514
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 24.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 24.847
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 25.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 25.18
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 25.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 25.514
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 25.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 26.014
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 26.014
+    track: 2
+    type: 1
+    localSpeed: 1
+    duration: 0.181
+  - time: 26.181
+    track: 1
+    type: 1
+    localSpeed: 1
+    duration: 0.181
+  - time: 26.264
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 26.681
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 26.681
+    track: 1
+    type: 1
+    localSpeed: 1
+    duration: 0.181
+  - time: 26.848
+    track: 2
+    type: 1
+    localSpeed: 1
+    duration: 0.181
+  - time: 26.931
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 27.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 27.43
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 27.514
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 27.848
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 27.848
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 28.014
+    track: 2
+    type: 1
+    localSpeed: 1
+    duration: 0.181
+  - time: 28.014
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 28.181
+    track: 1
+    type: 1
+    localSpeed: 1
+    duration: 0.181
+  - time: 28.264
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 28.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 28.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 28.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 28.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 29.18
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 29.264
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 29.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 29.43
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 29.514
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 29.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 29.764
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 29.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 29.93
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 30.847
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 31.18
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 31.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 31.514
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 31.68
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 31.847
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 32.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 32.18
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 32.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 32.514
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 32.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 33.014
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 33.18
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 33.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 33.347
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 33.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 33.68
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 33.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 34.014
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 34.181
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 34.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 34.514
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 34.681
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 34.847
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 35.014
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 35.181
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 35.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 35.514
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 35.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 35.847
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 36.014
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 36.18
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 36.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 36.514
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 36.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 37.013
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 37.18
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 37.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 37.513
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 37.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 37.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 38.013
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 38.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 38.513
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 38.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 38.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 39.013
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 39.013
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 39.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 39.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 39.514
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 39.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 39.847
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 40.014
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 40.18
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 40.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 40.514
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 40.68
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 40.847
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 41.013
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 41.18
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 41.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 41.513
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 41.68
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 41.847
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 42.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 42.014
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 42.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 42.347
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 42.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 42.514
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 0.514
+  - time: 43.18
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 43.264
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 43.43
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 43.597
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 43.763
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 43.93
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 44.014
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 44.18
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 44.346
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 44.513
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 44.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 44.847
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 45.014
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 45.014
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 45.18
+    track: 3
+    type: 1
+    localSpeed: 1
+    duration: 0.514
+  - time: 45.93
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 46.014
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 46.18
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 46.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 46.514
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 46.597
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 46.764
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 46.93
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 47.097
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 47.264
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 47.513
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 47.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 47.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 47.847
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 0.347
+  - time: 48.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 48.43
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 48.513
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 48.597
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 48.763
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 48.93
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 49.096
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 49.263
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 49.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 49.513
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 49.679
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 49.846
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 50.013
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 50.18
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 50.347
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 50.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 50.513
+    track: 3
+    type: 1
+    localSpeed: 1
+    duration: 0.348
+  - time: 51.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 51.097
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 51.18
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 51.264
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 51.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 51.514
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 51.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 51.847
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 51.93
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 52.097
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 52.263
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 52.43
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 52.597
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 52.846
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 53.013
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 53.18
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 0.348
+  - time: 53.68
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 53.764
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 53.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 53.93
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 54.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 54.264
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 54.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 54.43
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 54.514
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 54.597
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 54.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 54.93
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 55.014
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 55.097
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 55.18
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 55.264
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 55.514
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 55.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 55.847
+    track: 3
+    type: 1
+    localSpeed: 1
+    duration: 0.348
+  - time: 56.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 56.43
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 56.514
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 56.597
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 56.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 56.764
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 56.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 56.93
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 57.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 57.097
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 57.18
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 57.264
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 57.514
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 57.597
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 57.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 57.764
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 57.847
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 57.93
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 58.18
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 58.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 58.514
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 0.348
+  - time: 59.014
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 59.098
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 59.181
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 59.264
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 59.514
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 59.598
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 59.681
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 59.764
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 59.848
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 59.931
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 60.181
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 60.264
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 60.348
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 60.431
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 60.514
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 60.598
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 60.848
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 61.014
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 61.181
+    track: 3
+    type: 1
+    localSpeed: 1
+    duration: 0.348
+  - time: 61.681
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 61.764
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 61.848
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 61.931
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 62.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 62.098
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 62.181
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 62.264
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 62.348
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 62.431
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 62.514
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 62.598
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 62.848
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 62.931
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 63.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 63.098
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 63.181
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 63.264
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 71.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 77.346
+    track: 3
+    type: 1
+    localSpeed: 1
+    duration: 0.681
+  - time: 80.013
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 0.347
+  - time: 112.014
+    track: 3
+    type: 1
+    localSpeed: 1
+    duration: 0.68
+  - time: 112.68
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 0.681
+  - time: 113.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 113.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 113.847
+    track: 2
+    type: 1
+    localSpeed: 1
+    duration: 0.347
+  - time: 114.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 114.68
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 0.681
+  - time: 114.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 115.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 115.181
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 115.347
+    track: 3
+    type: 1
+    localSpeed: 1
+    duration: 0.681
+  - time: 115.514
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 115.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 115.847
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 116.014
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 2.014
+  - time: 116.347
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 116.514
+    track: 2
+    type: 1
+    localSpeed: 1
+    duration: 0.347
+  - time: 117.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 117.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 117.514
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 117.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 117.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 118.014
+    track: 3
+    type: 1
+    localSpeed: 1
+    duration: 0.68
+  - time: 118.18
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 118.347
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 118.514
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 118.68
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 0.348
+  - time: 119.014
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 119.18
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 119.347
+    track: 2
+    type: 1
+    localSpeed: 1
+    duration: 1.847
+  - time: 119.347
+    track: 1
+    type: 1
+    localSpeed: 1
+    duration: 1.847
+  - time: 121.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 121.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 122.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 122.514
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 122.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 122.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 123.014
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 0.18
+  - time: 123.014
+    track: 1
+    type: 1
+    localSpeed: 1
+    duration: 0.18
+  - time: 123.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 123.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 123.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 124.014
+    track: 1
+    type: 1
+    localSpeed: 1
+    duration: 0.18
+  - time: 124.014
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 0.18
+  - time: 124.347
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 0.18
+  - time: 124.347
+    track: 1
+    type: 1
+    localSpeed: 1
+    duration: 0.18
+  - time: 124.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 125.014
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 125.014
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 125.18
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 125.514
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 125.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 125.68
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 125.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 126.014
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 126.68
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 126.68
+    track: 3
+    type: 1
+    localSpeed: 1
+    duration: 0.181
+  - time: 126.847
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 0.181
+  - time: 126.93
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 127.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 127.347
+    track: 0
+    type: 1
+    localSpeed: 1
+    duration: 0.181
+  - time: 127.514
+    track: 3
+    type: 1
+    localSpeed: 1
+    duration: 0.181
+  - time: 127.597
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 127.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 127.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 128.014
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 128.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 128.18
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 128.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 128.514
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 128.514
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 128.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 128.68
+    track: 2
+    type: 1
+    localSpeed: 1
+    duration: 0.181
+  - time: 128.847
+    track: 1
+    type: 1
+    localSpeed: 1
+    duration: 0.181
+  - time: 128.93
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 129.18
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 129.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 129.347
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 129.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 129.514
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 129.514
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 129.68
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 129.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 129.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 129.93
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 130.014
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 130.097
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 130.18
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 130.347
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 130.43
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 130.514
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 130.597
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 130.68
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 130.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 130.847
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 130.847
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 131.014
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 131.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 131.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 131.18
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 131.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 131.43
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 131.514
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 131.597
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 131.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 131.764
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 131.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 131.93
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 132.18
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 132.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 132.514
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 132.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 132.764
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 132.93
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 133.014
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 133.264
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 133.514
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 133.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 134.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 134.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 135.014
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 135.264
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 135.43
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 135.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 135.93
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 136.097
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 136.18
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 136.264
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 136.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 136.43
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 136.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 136.764
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 136.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 136.93
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 137.014
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 137.097
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 137.514
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 137.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 137.847
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 138.014
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 138.097
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 138.264
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 138.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 138.597
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 138.847
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 139.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 139.847
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 140.18
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 140.597
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 140.764
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 141.014
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 141.014
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 141.18
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 141.264
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 141.458
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 141.569
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 141.791
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 141.902
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 142.18
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 142.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 142.514
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 142.68
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 143.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 143.514
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 143.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 143.847
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 143.93
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 144.18
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 144.597
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 144.764
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 145.847
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 145.93
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 146.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 146.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 146.514
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 146.597
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 146.847
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 147.014
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 147.18
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 147.347
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 147.514
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 147.847
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 148.18
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 148.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 148.514
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 148.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 149.014
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 149.514
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 150.014
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 150.347
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 150.514
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 150.68
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 150.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 151.014
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 151.18
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 151.347
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 151.68
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 151.764
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 151.93
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 152.014
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 152.18
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 152.264
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 152.347
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 152.43
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 152.68
+    track: 3
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 152.847
+    track: 2
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 152.93
+    track: 1
+    type: 0
+    localSpeed: 1
+    duration: 0
+  - time: 153.097
+    track: 0
+    type: 0
+    localSpeed: 1
+    duration: 0
   halfScreenHeight: 1080
   halfScreenWidth: 720
-  clip: {fileID: 0}
-  speedMultiplier: 500
+  clip: {fileID: 8300000, guid: f4cd69aba0797e34fb96925b7e507727, type: 3}
+  speedMultiplier: 2000
   coords: 6dfeffff7bffffff8900000096010000
   keys: 6600000067000000680000006a000000
-  judgementLineY: -656
+  judgementLineY: -843
+  judgementLine: {fileID: 87377115}
+  comboText: {fileID: 1119581940}
   comboCount: 0
---- !u!1 &768109856
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 768109857}
-  - component: {fileID: 768109860}
-  - component: {fileID: 768109859}
-  - component: {fileID: 768109858}
-  m_Layer: 5
-  m_Name: RESTART
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &768109857
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768109856}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1119581939}
-  m_Father: {fileID: 1830336942}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -152.50491, y: -136}
-  m_SizeDelta: {x: 233.09998, y: 159.95605}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &768109858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768109856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 768109859}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &768109859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768109856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &768109860
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768109856}
-  m_CullTransparentMesh: 1
 --- !u!1 &1011734279
 GameObject:
   m_ObjectHideFlags: 0
@@ -692,13 +3223,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 768109857}
-  m_RootOrder: 0
+  m_Father: {fileID: 1830336942}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -133.79993, y: -95.1001}
+  m_SizeDelta: {x: 233.09985, y: 159.99707}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1119581940
 MonoBehaviour:
@@ -733,7 +3264,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u91CD\u5F00"
+  m_Text: Combo
 --- !u!222 &1119581941
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1095,8 +3626,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1736557505}
+  - {fileID: 1119581939}
   - {fileID: 87377115}
-  - {fileID: 768109857}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
