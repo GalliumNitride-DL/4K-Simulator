@@ -1,4 +1,4 @@
-# [WIP]
+# [WIP] Yes I know, the code and game logic sucks!
 # 4K-Simulator
 简易4K模拟器，使用Unity制作。
 Simple 4-key rhythm game engine made with Unity.
